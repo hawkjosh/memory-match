@@ -1,0 +1,55 @@
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 1rem;
+
+	& .page-header {
+		display: flex;
+		flex-direction: column;
+		place-items: center;
+
+		& .header-title {
+			font-size: 3.5rem;
+			line-height: 1.25;
+			font-weight: 700;
+			margin-bottom: 1rem;
+		}
+
+		& .operations-container {
+			display: flex;
+			gap: 2rem;
+			& .new-game-btn {
+				cursor: pointer;
+			}
+
+			& .turns-tracker {
+			}
+		}
+	}
+
+	& .page-content {
+		display: flex;
+		place-content: center;
+		place-items: center;
+		outline: solid red;
+
+		& .cards-container {
+			margin-top: 1rem;
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			gap: 0.5rem;
+		}
+	}
+}
+
+@keyframes logo-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
