@@ -1,0 +1,39 @@
+{
+	"teams": [
+		{
+			"id": 1,
+			"name": "Baltimore Orioles",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/110.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 2,
+			"name": "Boston Red Sox",
+			"link": "https://www.mlbstatic.com/team-logos/team-primary-on-light/111.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 3,
+			"name": "New York Yankees",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/147.svg",
+			"matched": false,
+			"backgroundSize": "70%"
+		},
+		{
+			"id": 4,
+			"name": "Tampa Bay Rays",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/139.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 5,
+			"name": "Toronto Blue Jays",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/141.svg",
+			"matched": false,
+			"backgroundSize": "85%"
+		}
+	]
+}

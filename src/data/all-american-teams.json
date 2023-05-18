@@ -1,0 +1,109 @@
+{
+	"teams": [
+		{
+			"id": 1,
+			"name": "Baltimore Orioles",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/110.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 2,
+			"name": "Boston Red Sox",
+			"link": "https://www.mlbstatic.com/team-logos/team-primary-on-light/111.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 3,
+			"name": "Chicago White Sox",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/145.svg",
+			"matched": false,
+			"backgroundSize": "55%"
+		},
+		{
+			"id": 4,
+			"name": "Cleveland Guardians",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/114.svg",
+			"matched": false,
+			"backgroundSize": "50%"
+		},
+		{
+			"id": 5,
+			"name": "Detroit Tigers",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/116.svg",
+			"matched": false,
+			"backgroundSize": "55%"
+		},
+		{
+			"id": 6,
+			"name": "Houston Astros",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/117.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 7,
+			"name": "Kansas City Royals",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/118.svg",
+			"matched": false,
+			"backgroundSize": "70%"
+		},
+		{
+			"id": 8,
+			"name": "Los Angeles Angels",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/108.svg",
+			"matched": false,
+			"backgroundSize": "60%"
+		},
+		{
+			"id": 9,
+			"name": "Minnesota Twins",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/142.svg",
+			"matched": false,
+			"backgroundSize": "70%"
+		},
+		{
+			"id": 10,
+			"name": "New York Yankees",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/147.svg",
+			"matched": false,
+			"backgroundSize": "70%"
+		},
+		{
+			"id": 11,
+			"name": "Oakland Athletics",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/133.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 12,
+			"name": "Seattle Mariners",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/136.svg",
+			"matched": false,
+			"backgroundSize": "45%"
+		},
+		{
+			"id": 13,
+			"name": "Tampa Bay Rays",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/139.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 14,
+			"name": "Texas Rangers",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/140.svg",
+			"matched": false,
+			"backgroundSize": "60%"
+		},
+		{
+			"id": 15,
+			"name": "Toronto Blue Jays",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/141.svg",
+			"matched": false,
+			"backgroundSize": "85%"
+		}
+	]
+}

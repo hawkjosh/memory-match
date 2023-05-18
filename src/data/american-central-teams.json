@@ -1,0 +1,39 @@
+{
+	"teams": [
+		{
+			"id": 1,
+			"name": "Chicago White Sox",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/145.svg",
+			"matched": false,
+			"backgroundSize": "55%"
+		},
+		{
+			"id": 2,
+			"name": "Cleveland Guardians",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/114.svg",
+			"matched": false,
+			"backgroundSize": "50%"
+		},
+		{
+			"id": 3,
+			"name": "Detroit Tigers",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/116.svg",
+			"matched": false,
+			"backgroundSize": "55%"
+		},
+		{
+			"id": 4,
+			"name": "Kansas City Royals",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/118.svg",
+			"matched": false,
+			"backgroundSize": "70%"
+		},
+		{
+			"id": 5,
+			"name": "Minnesota Twins",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/142.svg",
+			"matched": false,
+			"backgroundSize": "70%"
+		}
+	]
+}

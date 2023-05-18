@@ -1,0 +1,39 @@
+{
+	"teams": [
+    {
+      "id": 1,
+      "name": "Chicago Cubs",
+      "link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/112.svg",
+      "matched": false,
+			"backgroundSize": "80%"
+    },
+		{
+			"id": 2,
+			"name": "Cincinnati Reds",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/113.svg",
+			"matched": false,
+			"backgroundSize": "80%"
+		},
+		{
+			"id": 3,
+			"name": "Milwaukee Brewers",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/158.svg",
+			"matched": false,
+			"backgroundSize": "75%"
+		},
+		{
+			"id": 4,
+			"name": "Pittsburgh Pirates",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/134.svg",
+			"matched": false,
+			"backgroundSize": "55%"
+		},
+		{
+			"id": 5,
+			"name": "St. Louis Cardinals",
+			"link": "https://www.mlbstatic.com/team-logos/team-cap-on-light/138.svg",
+			"matched": false,
+			"backgroundSize": "60%"
+		}
+	]
+}
