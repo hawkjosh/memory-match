@@ -19,10 +19,7 @@ export const DifficultySelection = ({
 			<select
 				value={selectedOption}
 				onChange={handleOptionChange}>
-				<option
-					defaultValue=''>
-					Select an option:
-				</option>
+				<option defaultValue=''>Select an option:</option>
 				<optgroup label='Easy'>
 					<option value='NL East'>NL East</option>
 					<option value='NL Central'>NL Central</option>

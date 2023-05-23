@@ -18,9 +18,9 @@ import './App.css'
 interface Card {
 	id: number
 	name: string
-	link: string
+	image: string
+	size: string
 	matched: boolean
-	backgroundSize: string
 }
 
 const allMlbTeams: Card[] = allTeams.teams
@@ -61,49 +61,49 @@ export const App = () => {
 			setCards(shuffledCards)
 		}
 		if (selectedOption === 'National League') {
-				const shuffledCards = [...nationalLeagueTeams, ...nationalLeagueTeams]
+			const shuffledCards = [...nationalLeagueTeams, ...nationalLeagueTeams]
 				.sort(() => Math.random() - 0.5)
 				.map((card) => ({ ...card, id: Math.random() }))
 
 			setCards(shuffledCards)
 		}
 		if (selectedOption === 'AL East') {
-				const shuffledCards = [...alEastTeams, ...alEastTeams]
+			const shuffledCards = [...alEastTeams, ...alEastTeams]
 				.sort(() => Math.random() - 0.5)
 				.map((card) => ({ ...card, id: Math.random() }))
 
 			setCards(shuffledCards)
 		}
 		if (selectedOption === 'AL Central') {
-				const shuffledCards = [...alCentralTeams, ...alCentralTeams]
+			const shuffledCards = [...alCentralTeams, ...alCentralTeams]
 				.sort(() => Math.random() - 0.5)
 				.map((card) => ({ ...card, id: Math.random() }))
 
 			setCards(shuffledCards)
 		}
 		if (selectedOption === 'AL West') {
-				const shuffledCards = [...alWestTeams, ...alWestTeams]
+			const shuffledCards = [...alWestTeams, ...alWestTeams]
 				.sort(() => Math.random() - 0.5)
 				.map((card) => ({ ...card, id: Math.random() }))
 
 			setCards(shuffledCards)
 		}
 		if (selectedOption === 'NL East') {
-				const shuffledCards = [...nlEastTeams, ...nlEastTeams]
+			const shuffledCards = [...nlEastTeams, ...nlEastTeams]
 				.sort(() => Math.random() - 0.5)
 				.map((card) => ({ ...card, id: Math.random() }))
 
 			setCards(shuffledCards)
 		}
 		if (selectedOption === 'NL Central') {
-				const shuffledCards = [...nlCentralTeams, ...nlCentralTeams]
+			const shuffledCards = [...nlCentralTeams, ...nlCentralTeams]
 				.sort(() => Math.random() - 0.5)
 				.map((card) => ({ ...card, id: Math.random() }))
 
 			setCards(shuffledCards)
 		}
 		if (selectedOption === 'NL West') {
-				const shuffledCards = [...nlWestTeams, ...nlWestTeams]
+			const shuffledCards = [...nlWestTeams, ...nlWestTeams]
 				.sort(() => Math.random() - 0.5)
 				.map((card) => ({ ...card, id: Math.random() }))
 
@@ -122,10 +122,10 @@ export const App = () => {
 	useEffect(() => {
 		if (choiceOne && choiceTwo) {
 			setDisabled(true)
-			if (choiceOne.link === choiceTwo.link) {
+			if (choiceOne.name === choiceTwo.name) {
 				setCards((prevCards) => {
 					return prevCards.map((card) => {
-						if (card.link === choiceOne.link) {
+						if (card.name === choiceOne.name) {
 							return { ...card, matched: true }
 						} else {
 							return card
@@ -160,23 +160,23 @@ export const App = () => {
 				<div className='header-title'>MLB Memory Match</div>
 				<div className='operations-container'>
 					{cards.length === 0 ? (
-					<Fragment>
-						<DifficultySelection onSelectOption={handleOptionSelect} />
-						<button
-							className='start-btn'
-							onClick={shuffleCards}>
-							Start
-						</button>
-					</Fragment>
-					):(
-					<Fragment>
-						<button
-							className='new-game-btn'
-							onClick={newGame}>
-							New Game
-						</button>
-						<div className='turns-tracker'>Turns: {turns}</div>
-					</Fragment>
+						<Fragment>
+							<DifficultySelection onSelectOption={handleOptionSelect} />
+							<button
+								className='start-btn'
+								onClick={shuffleCards}>
+								Start
+							</button>
+						</Fragment>
+					) : (
+						<Fragment>
+							<button
+								className='new-game-btn'
+								onClick={newGame}>
+								New Game
+							</button>
+							<div className='turns-tracker'>Turns: {turns}</div>
+						</Fragment>
 					)}
 				</div>
 			</div>

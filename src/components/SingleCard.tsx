@@ -1,9 +1,9 @@
 interface Card {
 	id: number
 	name: string
-	link: string
+	image: string
+	size: string
 	matched: boolean
-	backgroundSize: string
 }
 
 interface SingleCardProps {
@@ -29,7 +29,10 @@ export const SingleCard = ({
 		<div className='card'>
 			<div
 				className={flipped ? 'card-front flipped' : 'card-front'}
-				style={{ backgroundImage: `url(${card.link})`, backgroundSize: card.backgroundSize }}
+				style={{
+					backgroundImage: `url(${card.image})`,
+					backgroundSize: card.size,
+				}}
 			/>
 			<div
 				className={flipped ? 'card-back flipped' : 'card-back'}
