@@ -1,0 +1,41 @@
+.card {
+	position: relative;
+	cursor: grab;
+
+	& .card-front {
+		width: 100%;
+		aspect-ratio: 1/1;
+		background: white;
+		border-radius: 1rem;
+		background-size: 90%;
+		background-position: center;
+		background-repeat: no-repeat;
+		transform: rotateY(90deg);
+		position: absolute;
+		transition: all ease-in 0.25s;
+
+		&.flipped {
+			transform: rotateY(0deg);
+			transition-delay: 0.25s;
+		}
+	}
+
+	& .card-back {
+		width: 100%;
+		aspect-ratio: 1/1;
+		background: hsl(215, 89%, 14%);
+		border: 0.125rem solid white;
+		border-radius: 1rem;
+		background-image: url('https://static.www.nfl.com/image/upload/v1554321393/league/nvfr7ogywskqrfaiu38m.svg');
+		background-size: 85%;
+		background-position: center;
+		background-repeat: no-repeat;
+		transition: all ease-in 0.25s;
+		transition-delay: 0.25s;
+
+		&.flipped {
+			transform: rotateY(90deg);
+			transition-delay: 0s;
+		}
+	}
+}

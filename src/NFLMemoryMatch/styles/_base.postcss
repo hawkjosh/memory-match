@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+$font-primary: 'Open Sans', sans-serif;
+$font-color-primary: rgba(255, 255, 255, 0.85);
+$bg-color-primary: #242424;
+$btn-color-primary: #1a1a1a;
+$btn-border-primary: #646cff;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	&:is(:focus, :focus-visible) {
+		outline: none;
+	}
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+html {
+	height: 100%;
+	font-family: $font-primary;
+	font-weight: 400;
+	color: $font-color-primary;
+	line-height: 1.5;
+	background: $bg-color-primary;
+	color-scheme: light dark;
+	scrollbar-width: none;
+
+	& body {
+		width: 100%;
+		min-width: 20rem;
+		max-width: 60rem;
+		min-height: 100vh;
+		min-height: 100dvh;
+		margin: 0 auto;
+	}
+}
